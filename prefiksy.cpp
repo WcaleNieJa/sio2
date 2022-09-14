@@ -1,4 +1,4 @@
-pr#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 
@@ -19,7 +19,7 @@ int main(){
         }
         if(s1[licznik]==s1[i])licznik++;
         T[i]=licznik;
-        //cout << T[i] << " ";//to dzia³a prawdopodobmnie
+        //cout << T[i] << " ";//to dziaÂ³a prawdopodobmnie
     }
     int W[200001];
     for (int i=1; i <= d1;i++){
