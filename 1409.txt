@@ -1,0 +1,110 @@
+cat .homepage/index.html wypisuje zawartość
+ls
+touch zmienia dane pliku (data dostepu, data mod, data utworzenia)
+rm remove
+grep szuka w plikach wzorca
+date
+np. date +%H:%M wypisuje godzine
+time cat plik.txt liczy czas pliku
+cut wypisuje kolumny
+tr abc def zmienia a na d etc.
+tr a-z d-za-c szyfr cezara
+mkdir tworzy katalog
+cd wchodzi
+mv zmienia nazwe
+cp kopiuje
+vim test.sh
+
+#!/bin/bash tu ustawiamy interpreter
+echo "Hello,world" taki cout
+wtedy bash test.sh wyrzuca hello world
+> wyjscie.txt wrzuca do pliku a nie na wyjscie po prostu
+ew >> jak już jest plik
+
+Można < z pliku
+
+zmienna=world(bez odstepu)
+
+echo "Hello,$zmienna"
+
+teraz="$date"
+echo $(( 2 + ile ))
+
+if stat plik.txt; then
+albo:
+if
+then
+	ffuauf
+else
+	fgu
+
+
+
+
+
+
+
+if ((ile < 10)); then
+	echo "cokolwiek"
+else
+	echo "ssssssssss"
+
+
+
+[] służą do porównywania na stringach
+
+fi na końcu gość daje
+
+
+while ((ile > 1));do
+	echo "ile=$ile"
+	ile = $[ile+1]
+done
+
+
+for ((i=1; i < 20;i=i+2)); do
+	echo ""
+
+done
+
+for x in a b c d e; do
+	echo"x=$x"
+done
+
+seq 1 100 od 1 do 100
+
+{1..10} od 1 do 10
+
+
+
+getent passwd xneby
+
+
+
+skrypt wypisujacy imiona i nazw
+
+
+#!/bin/bash
+ls /home/k19_a | while read login;do
+	getent passwd %login | cut -d: -f5
+done | sort -k2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
